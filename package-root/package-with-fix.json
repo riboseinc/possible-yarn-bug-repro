@@ -1,0 +1,15 @@
+{
+  "name": "yarn-repro",
+  "type": "module",
+  "packageManager": "yarn@4.5.0",
+  "resolutions": {
+    "@react-spectrum/utils": "file:../react-spectrum-utils"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.40.1",
+    "@react-spectrum/provider": "^3.10.3",
+    "@spectrum-icons/workflow": "^4.2.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
