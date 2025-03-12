@@ -1,0 +1,8 @@
+{
+  "name": "yarn-repro",
+  "type": "module",
+  "packageManager": "yarn@4.5.0",
+  "dependencies": {
+    "@react-spectrum/utils": "file:../react-spectrum-utils"
+  }
+}
