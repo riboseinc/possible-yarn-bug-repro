@@ -8,3 +8,9 @@ by running `yarn` in `package-root`.
 
 In `package-root`, if you swap `package.json` for `package-with-fix.json`
 and re-run `yarn`, you will no longer see the duplicate virtual entries.
+
+`react-spectrum-utils` & `react-spectrum-utils-broken` have only one change
+between them: the broken version has a peer dependency on `react-dom`.
+
+Dependency on `@react-spectrum/provider` is necessary, as it is apparently
+a contributing triggering condition.
