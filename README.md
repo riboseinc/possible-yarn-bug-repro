@@ -23,3 +23,6 @@ It doesn’t seem reasonable
 that the same version should have multiple virtual entries, so this is
 either a bug in Yarn, or intended behavior of Yarn and a bug in how
 React Spectrum packages specify their dependencies.
+
+Run `node duplicateVirtualChecker.cjs` to see a list of all packages with
+duplicate virtual entries.
