@@ -13,4 +13,6 @@ and re-run `yarn`, you will no longer see the duplicate virtual entries.
 between them: the broken version has a peer dependency on `react-dom`.
 
 Dependency on `@react-spectrum/provider` is necessary, as it is apparently
-a contributing triggering condition.
+a contributing triggering condition. Regardless, it doesn’t seem reasonable
+that the same version should have multiple virtual entries, so this is
+either a bug in Yarn, or intended behavior of Yarn and a bug in React Spectrum.
