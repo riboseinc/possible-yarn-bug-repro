@@ -3643,7 +3643,6 @@ __metadata:
   dependencies:
     "@adobe/react-spectrum": "npm:^3.40.1"
     "@react-spectrum/provider": "npm:^3.10.3"
-    "@spectrum-icons/workflow": "npm:^4.2.19"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
   languageName: unknown

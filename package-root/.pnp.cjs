@@ -29,7 +29,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@adobe/react-spectrum", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.40.1"],\
           ["@react-spectrum/provider", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.10.3"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"]\
         ],\
@@ -160,10 +159,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:f9d9a708502c9aa88a26bfe9751640f3082701aba340c04b4bbefae1e272317bbe09b702f30ca37ad5a64b5179f5b33398b9e8b8b6e756e27aa0e46827b9113b#npm:2.3.5", {\
-        "packageLocation": "./.yarn/__virtual__/@adobe-react-spectrum-workflow-virtual-0708b83af1/5/.yarn/berry/cache/@adobe-react-spectrum-workflow-npm-2.3.5-8898bfab3a-10c0.zip/node_modules/@adobe/react-spectrum-workflow/",\
+      ["virtual:935d2512c3b53ca3f68332b95cd93170d832f554be5e1b7d8fce2034461b21dd1ad98b2297776c03e0bfca15ce997a565d4a0eca8283cdd5fb3e3b690726497a#npm:2.3.5", {\
+        "packageLocation": "./.yarn/__virtual__/@adobe-react-spectrum-workflow-virtual-c3ffc6286b/5/.yarn/berry/cache/@adobe-react-spectrum-workflow-npm-2.3.5-8898bfab3a-10c0.zip/node_modules/@adobe/react-spectrum-workflow/",\
         "packageDependencies": [\
-          ["@adobe/react-spectrum-workflow", "virtual:f9d9a708502c9aa88a26bfe9751640f3082701aba340c04b4bbefae1e272317bbe09b702f30ca37ad5a64b5179f5b33398b9e8b8b6e756e27aa0e46827b9113b#npm:2.3.5"],\
+          ["@adobe/react-spectrum-workflow", "virtual:935d2512c3b53ca3f68332b95cd93170d832f554be5e1b7d8fce2034461b21dd1ad98b2297776c03e0bfca15ce997a565d4a0eca8283cdd5fb3e3b690726497a#npm:2.3.5"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
           ["react", "npm:18.3.1"],\
@@ -3257,7 +3256,7 @@ const RAW_RUNTIME_STATE =
           ["@react-types/actiongroup", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:3.4.15"],\
           ["@react-types/shared", "virtual:eed4fc343fc939a86b48dea00eba5832e1d7ac87cd048f0eb9ecff55e80c59b7189f9d88ede4cc29a3f9ddde56e054a85b0c985384fbed209fd712d25e5ce0ef#npm:3.28.0"],\
           ["@spectrum-icons/ui", "virtual:6cdf73be7324553b8982bbad55262dfdad352b865dea02b24c3534418fd7d400bc04a06e4dbbd6190636dd51b1895a026f3664edb0bc0614a6d0b3ac44172ece#npm:3.6.14"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
+          ["@spectrum-icons/workflow", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19"],\
           ["@swc/helpers", "npm:0.5.15"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -3673,7 +3672,7 @@ const RAW_RUNTIME_STATE =
           ["@react-spectrum/utils", "virtual:6cdf73be7324553b8982bbad55262dfdad352b865dea02b24c3534418fd7d400bc04a06e4dbbd6190636dd51b1895a026f3664edb0bc0614a6d0b3ac44172ece#npm:3.12.3"],\
           ["@react-types/contextualhelp", "virtual:c5d43658c8a01beeff19649d49be0fad76c5f3ce0e9b711f4534a9841d5b3fdf4bf18fcdc6b88cc80082c453c0855c7d925b5fbd60d95ea079ceba3716aa39b1#npm:3.2.16"],\
           ["@react-types/shared", "virtual:eed4fc343fc939a86b48dea00eba5832e1d7ac87cd048f0eb9ecff55e80c59b7189f9d88ede4cc29a3f9ddde56e054a85b0c985384fbed209fd712d25e5ce0ef#npm:3.28.0"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
+          ["@spectrum-icons/workflow", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19"],\
           ["@swc/helpers", "npm:0.5.15"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -3723,7 +3722,7 @@ const RAW_RUNTIME_STATE =
           ["@react-types/datepicker", "virtual:c8e1043195985c946d9fa086473272875cdfefdded9a2e696c28a2ffaf8291c0eea72765e8df760bc472e55bb7c2b05c78ef4307891e9aa71944a754423c43ec#npm:3.11.0"],\
           ["@react-types/shared", "virtual:eed4fc343fc939a86b48dea00eba5832e1d7ac87cd048f0eb9ecff55e80c59b7189f9d88ede4cc29a3f9ddde56e054a85b0c985384fbed209fd712d25e5ce0ef#npm:3.28.0"],\
           ["@spectrum-icons/ui", "virtual:6cdf73be7324553b8982bbad55262dfdad352b865dea02b24c3534418fd7d400bc04a06e4dbbd6190636dd51b1895a026f3664edb0bc0614a6d0b3ac44172ece#npm:3.6.14"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
+          ["@spectrum-icons/workflow", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19"],\
           ["@swc/helpers", "npm:0.5.15"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -4483,7 +4482,7 @@ const RAW_RUNTIME_STATE =
           ["@react-types/overlays", "virtual:226395c32e8dde30a03345cf1e16e6f2eb8ad5e498cf2fb0ee54fac461861f849c08139784050cd344686c0ad18ff01a0c26ff5a97950b3912707d16b542154f#npm:3.8.13"],\
           ["@react-types/shared", "virtual:eed4fc343fc939a86b48dea00eba5832e1d7ac87cd048f0eb9ecff55e80c59b7189f9d88ede4cc29a3f9ddde56e054a85b0c985384fbed209fd712d25e5ce0ef#npm:3.28.0"],\
           ["@spectrum-icons/ui", "virtual:6cdf73be7324553b8982bbad55262dfdad352b865dea02b24c3534418fd7d400bc04a06e4dbbd6190636dd51b1895a026f3664edb0bc0614a6d0b3ac44172ece#npm:3.6.14"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
+          ["@spectrum-icons/workflow", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19"],\
           ["@swc/helpers", "npm:0.5.15"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -4566,7 +4565,7 @@ const RAW_RUNTIME_STATE =
           ["@react-types/numberfield", "virtual:d443dc19bfb3e8fc08931fb533f59bf0e1433ec37a4793e4ab4d796074f98dfbb768db29c739a612338ed0a314f4364ed8ad6b84a0ccc05161322938f904bdfe#npm:3.8.9"],\
           ["@react-types/shared", "virtual:eed4fc343fc939a86b48dea00eba5832e1d7ac87cd048f0eb9ecff55e80c59b7189f9d88ede4cc29a3f9ddde56e054a85b0c985384fbed209fd712d25e5ce0ef#npm:3.28.0"],\
           ["@spectrum-icons/ui", "virtual:6cdf73be7324553b8982bbad55262dfdad352b865dea02b24c3534418fd7d400bc04a06e4dbbd6190636dd51b1895a026f3664edb0bc0614a6d0b3ac44172ece#npm:3.6.14"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
+          ["@spectrum-icons/workflow", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19"],\
           ["@swc/helpers", "npm:0.5.15"],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -7413,11 +7412,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19", {\
-        "packageLocation": "./.yarn/__virtual__/@spectrum-icons-workflow-virtual-f9d9a70850/5/.yarn/berry/cache/@spectrum-icons-workflow-npm-4.2.19-aa23af06ff-10c0.zip/node_modules/@spectrum-icons/workflow/",\
+      ["virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19", {\
+        "packageLocation": "./.yarn/__virtual__/@spectrum-icons-workflow-virtual-935d2512c3/5/.yarn/berry/cache/@spectrum-icons-workflow-npm-4.2.19-aa23af06ff-10c0.zip/node_modules/@spectrum-icons/workflow/",\
         "packageDependencies": [\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
-          ["@adobe/react-spectrum-workflow", "virtual:f9d9a708502c9aa88a26bfe9751640f3082701aba340c04b4bbefae1e272317bbe09b702f30ca37ad5a64b5179f5b33398b9e8b8b6e756e27aa0e46827b9113b#npm:2.3.5"],\
+          ["@spectrum-icons/workflow", "virtual:67b9940231b8951814f6f18ae3467a57d53986c50a33b7917263cbe29e9ff24081c98363ee71c3597e7b1961e4a504fe5c321d0c06a5806a91442a7e12175402#npm:4.2.19"],\
+          ["@adobe/react-spectrum-workflow", "virtual:935d2512c3b53ca3f68332b95cd93170d832f554be5e1b7d8fce2034461b21dd1ad98b2297776c03e0bfca15ce997a565d4a0eca8283cdd5fb3e3b690726497a#npm:2.3.5"],\
           ["@react-spectrum/icon", "virtual:d2af5b0a1236450062cd076394970ae7726f30d3d4f6a0ec1cc50a9a434b2471fd42adf10926ca543b60ced7a56dc6fde85a1fdabe3d8be7e518d0f86a1270d8#npm:3.8.3"],\
           ["@react-spectrum/provider", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.10.3"],\
           ["@swc/helpers", "npm:0.5.15"],\
@@ -7944,7 +7943,6 @@ const RAW_RUNTIME_STATE =
           ["yarn-repro", "workspace:."],\
           ["@adobe/react-spectrum", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.40.1"],\
           ["@react-spectrum/provider", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.10.3"],\
-          ["@spectrum-icons/workflow", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:4.2.19"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"]\
         ],\
@@ -8363,7 +8361,7 @@ async function copyImpl(prelayout, postlayout, destinationFs, destination, sourc
 async function maybeLStat(baseFs, p) {
   try {
     return await baseFs.lstatPromise(p);
-  } catch (e) {
+  } catch {
     return null;
   }
 }
@@ -8622,7 +8620,7 @@ class CustomStatWatcher extends events.EventEmitter {
   stat() {
     try {
       return this.fakeFs.statSync(this.path, { bigint: this.bigint });
-    } catch (error) {
+    } catch {
       const statInstance = this.bigint ? new BigIntStatsEntry() : new StatEntry();
       return clearStats(statInstance);
     }
@@ -8948,7 +8946,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = await this.readFilePromise(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -8958,7 +8956,7 @@ class FakeFS {
     let current = ``;
     try {
       current = await this.readFilePromise(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -8976,7 +8974,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = this.readFileSync(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -8986,7 +8984,7 @@ class FakeFS {
     let current = ``;
     try {
       current = this.readFileSync(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -9026,13 +9024,13 @@ class FakeFS {
       let pid;
       try {
         [pid] = await this.readJsonPromise(lockPath);
-      } catch (error) {
+      } catch {
         return Date.now() - startTime < 500;
       }
       try {
         process.kill(pid, 0);
         return true;
-      } catch (error) {
+      } catch {
         return false;
       }
     };
@@ -9045,7 +9043,7 @@ class FakeFS {
             try {
               await this.unlinkPromise(lockPath);
               continue;
-            } catch (error2) {
+            } catch {
             }
           }
           if (Date.now() - startTime < 60 * 1e3) {
@@ -9065,7 +9063,7 @@ class FakeFS {
       try {
         await this.closePromise(fd);
         await this.unlinkPromise(lockPath);
-      } catch (error) {
+      } catch {
       }
     }
   }
@@ -10215,7 +10213,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = await sourceFs.readFilePromise(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       await destFs.writeFilePromise(destP2, content);
@@ -10247,7 +10245,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = sourceFs.readFileSync(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       destFs.writeFileSync(destP2, content);
@@ -10560,7 +10558,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
@@ -11162,7 +11160,7 @@ function patchFs(patchedFs, fakeFs) {
     setupFn(patchedFs, `existsSync`, (p) => {
       try {
         return fakeFs.existsSync(p);
-      } catch (error) {
+      } catch {
         return false;
       }
     });
@@ -12523,7 +12521,7 @@ class ZipFS extends BasePortableFakeFS {
     let resolvedP;
     try {
       resolvedP = this.resolveFilename(`stat '${p}'`, p, void 0, false);
-    } catch (error) {
+    } catch {
       return false;
     }
     if (resolvedP === void 0)
@@ -13564,7 +13562,7 @@ Require stack:
         } else {
           resolution = originalFindPath.call(require$$0.Module, request, [path], isMain);
         }
-      } catch (error) {
+      } catch {
         continue;
       }
       if (resolution) {
@@ -13573,18 +13571,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
@@ -14645,7 +14645,7 @@ function makeApi(runtimeState, opts) {
     try {
       candidates.push(unqualifiedPath);
       stat = opts.fakeFs.statSync(unqualifiedPath);
-    } catch (error) {
+    } catch {
     }
     if (stat && !stat.isDirectory())
       return opts.fakeFs.realpathSync(unqualifiedPath);
@@ -14653,7 +14653,7 @@ function makeApi(runtimeState, opts) {
       let pkgJson;
       try {
         pkgJson = JSON.parse(opts.fakeFs.readFileSync(ppath.join(unqualifiedPath, Filename.manifest), `utf8`));
-      } catch (error) {
+      } catch {
       }
       let nextUnqualifiedPath;
       if (pkgJson && pkgJson.main)
