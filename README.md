@@ -1,7 +1,10 @@
 This demonstrates a bug with duplicate virtual package entries
 for the same package & same version.
 
-Reproduction is visible in `.pnp.cjs`, line 5379.
+Reproduction is in `.pnp.cjs`, [from around line 5379](https://github.com/riboseinc/possible-yarn-bug-repro/blob/26c88320abcff6b22f4ded86de6f7b868ae46ac7/package-root/.pnp.cjs#L5378-L5432).
+
+This situation causes runtime bugs as different packages
+end up using different virtual copy.
 
 You should be able to derive the identical `.pnp.cjs` from scratch
 by running `yarn` in `package-root`.
