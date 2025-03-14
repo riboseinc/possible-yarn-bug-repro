@@ -6,22 +6,16 @@ const api = require('./.pnp.cjs');
 
 const loc = api.getAllLocators();
 const virtualByPackageName = {};
-//console.debug(api.getDependencyTreeRoots())
 for (const l of loc) {
   const pkg = api.getPackageInformation(l);
-  //console.debug('loc', l)
   if (pkg) {
-    //console.debug('pkg', pkg)
-    //console.debug(api.resolveVirtual(pkg.packageLocation));
-    //console.debug(api.resolveUnqualified(pkg.packageLocation));
     let path;
     try {
       path = api.resolveUnqualified(pkg.packageLocation);
     } catch (e) {
-      console.warn("Cannot resolve path for", l.name);
+      //console.warn("Cannot resolve path for", l.name);
       continue;
     }
-    //console.debug(l, path);
     if (path.indexOf('__virtual__') >= 1) {
       if (virtualByPackageName[l.name]) {
         virtualByPackageName[l.name].push(path);
