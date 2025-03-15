@@ -62,7 +62,8 @@ changes).
 
 - To see a list of all packages with duplicate virtual entries,
   run `node duplicateVirtualChecker.cjs` or add constraint from the snippet
-  in [this comment](https://github.com/yarnpkg/berry/issues/4688#issuecomment-2726079576).
+  in [this comment](https://github.com/yarnpkg/berry/issues/4688#issuecomment-2726079576)
+  and run `yarn constraints`.
 
 - The `packageExtensions` entry in `.yarnrc.yml` is required because
   of an unrelated suspected issue in `@spectrum-icons/ui` where it
