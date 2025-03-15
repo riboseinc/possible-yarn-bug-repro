@@ -1,7 +1,16 @@
-This demonstrates a bug with duplicate virtual package entries
-for the same package & same version.
+This demonstrates how Yarn’s duplicate virtual package entries
+for the same package & same version causes bugs in React Spectrum.
 
-Reproduction is in `.pnp.cjs`, [from around line 5379](https://github.com/riboseinc/possible-yarn-bug-repro/blob/26c88320abcff6b22f4ded86de6f7b868ae46ac7/package-root/.pnp.cjs#L5378-L5432).
+It doesn’t seem reasonable
+that the same version should have multiple virtual entries, so this is
+either a bug in Yarn, or intended behavior of Yarn and a bug in how
+React Spectrum packages specify their dependencies.
+
+## Reproduction of duplicate virtual packages
+
+Reproduction is evident in `.pnp.cjs`, from around line 5606:
+in RAW_RUNTIME_STATE under the entry for
+`@react-spectrum/utils` there are multiple “virtual” packages.
 
 This situation causes runtime bugs as packages
 end up using two different JavaScript objects,
@@ -10,19 +19,50 @@ even as you’re referencing the same import.
 You should be able to derive the identical `.pnp.cjs` from scratch
 by running `yarn` in `package-root`.
 
-In `package-root`, if you swap `package.json` for `package-with-fix.json`
-and re-run `yarn`, you will no longer see the duplicate virtual entries.
+In `package-root`, if you add the following, you should no longer
+see the duplicate virtual entries:
 
-`react-spectrum-utils` & `react-spectrum-utils-broken` have only one change
-between them: the broken version has a peer dependency on `react-dom`.
 
-Dependency on `@react-spectrum/provider` is necessary, as it is apparently
-a contributing triggering condition. 
+```json
+  "resolutions": {
+    "@react-spectrum/utils": "file:../react-spectrum-utils-broken"
+  }
+```
 
-It doesn’t seem reasonable
-that the same version should have multiple virtual entries, so this is
-either a bug in Yarn, or intended behavior of Yarn and a bug in how
-React Spectrum packages specify their dependencies.
+Alternatively, set this resolution to see those entries:
 
-Run `node duplicateVirtualChecker.cjs` to see a list of all packages with
-duplicate virtual entries.
+```json
+  "resolutions": {
+    "@react-spectrum/utils": "file:../react-spectrum-utils"
+  }
+```
+
+The only difference between the two is the presence of react-dom peer dependency.
+
+## Runtime bug reproduction
+
+To be more specific, the bug arises in the bundle of the Web app
+where esbuild (a well-behaved bundler) dutifully outputs code
+instantiating distinct JavaScript objects for distinct virtual
+packages at runtime. 
+
+To build the app and observe the bug, run `yarn build` and serve
+`package-root` on localhost.
+
+As before, switching package resolution can turn the bug on or off
+(just remember to run `yarn` and `yarn build` after any package.json
+changes).
+
+## Notes
+
+- The demo package uses Yarn’s zero-installs.
+
+- Dependency on `@react-spectrum/provider` is necessary, as it is apparently
+  a contributing triggering condition. 
+
+- Run `node duplicateVirtualChecker.cjs` to see a list of all packages with
+  duplicate virtual entries.
+
+- The `packageExtensions` entry in `.yarnrc.yml` is required because
+  of an unrelated suspected issue in `@spectrum-icons/ui` where it
+  does not declare a dependency on `@babel/runtime`.

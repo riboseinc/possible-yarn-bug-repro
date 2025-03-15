@@ -2,10 +2,16 @@
   "name": "yarn-repro",
   "type": "module",
   "packageManager": "yarn@4.7.0",
+  "scripts": {
+    "build": "yarn esbuild app.tsx --tree-shaking --target=esnext --platform=browser --minify=false --bundle --format=iife --outfile=app-bundle.js"
+  },
   "dependencies": {
     "@adobe/react-spectrum": "^3.40.1",
     "@react-spectrum/provider": "^3.10.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.1"
   }
 }
