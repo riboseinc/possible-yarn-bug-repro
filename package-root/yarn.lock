@@ -3891,6 +3891,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.7.1":
+  version: 7.7.1
+  resolution: "semver@npm:7.7.1"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/fd603a6fb9c399c6054015433051bdbe7b99a940a8fb44b85c2b524c4004b023d7928d47cb22154f8d054ea7ee8597f586605e05b52047f048278e4ac56ae958
+  languageName: node
+  linkType: hard
+
 "tslib@npm:2, tslib@npm:^2.4.0, tslib@npm:^2.8.0":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
@@ -3917,5 +3926,6 @@ __metadata:
     esbuild: "npm:^0.25.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
+    semver: "npm:^7.7.1"
   languageName: unknown
   linkType: soft

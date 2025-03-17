@@ -32,7 +32,8 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/types", "npm:4.0.1"],\
           ["esbuild", "npm:0.25.1"],\
           ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"]\
+          ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"],\
+          ["semver", "npm:7.7.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -8177,6 +8178,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["semver", [\
+      ["npm:7.7.1", {\
+        "packageLocation": "./.yarn/cache/semver-npm-7.7.1-4572475307-fd603a6fb9.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:7.7.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tslib", [\
       ["npm:2.8.1", {\
         "packageLocation": "./.yarn/cache/tslib-npm-2.8.1-66590b21b8-9c4759110a.zip/node_modules/tslib/",\
@@ -8218,7 +8228,8 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/types", "npm:4.0.1"],\
           ["esbuild", "npm:0.25.1"],\
           ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"]\
+          ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"],\
+          ["semver", "npm:7.7.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
