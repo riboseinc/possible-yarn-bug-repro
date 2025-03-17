@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@adobe/react-spectrum", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.40.1"],\
           ["@react-spectrum/provider", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.10.3"],\
+          ["@yarnpkg/types", "npm:4.0.1"],\
           ["esbuild", "npm:0.25.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"]\
@@ -7670,6 +7671,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@yarnpkg/types", [\
+      ["npm:4.0.1", {\
+        "packageLocation": "./.yarn/cache/@yarnpkg-types-npm-4.0.1-e0d0f24be9-9022678947.zip/node_modules/@yarnpkg/types/",\
+        "packageDependencies": [\
+          ["@yarnpkg/types", "npm:4.0.1"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["client-only", [\
       ["npm:0.0.1", {\
         "packageLocation": "./.yarn/cache/client-only-npm-0.0.1-07d3e9505c-9d6cfd0c19.zip/node_modules/client-only/",\
@@ -8204,6 +8215,7 @@ const RAW_RUNTIME_STATE =
           ["yarn-repro", "workspace:."],\
           ["@adobe/react-spectrum", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.40.1"],\
           ["@react-spectrum/provider", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:3.10.3"],\
+          ["@yarnpkg/types", "npm:4.0.1"],\
           ["esbuild", "npm:0.25.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ae24f0d3acf9470435a449700e1718d3334e1f233b34e74f75729e1c22bbc883321f2a7b01938febbf7962445b772ee255fcf2444178dca40e02a69f95bbd8d5#npm:18.3.1"]\
