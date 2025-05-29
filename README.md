@@ -33,6 +33,25 @@ As before, switching package resolution can turn the bug on or off
 (just remember to run `yarn` and `yarn build` after any package.json
 changes).
 
+## Investigating duplicate packages
+
+It may be helpful to use a plugin linked in this issue:
+
+https://github.com/yarnpkg/berry/issues/6724#issuecomment-2908150089
+
+and checking `yarn why` with duplicate packages.
+
+The plugin can be configured with the following in `.yarnrc.yml`:
+
+```
+preventMultipleInstances:
+- 'virtual:*'
+```
+
+In some projects, the root cause may be in your own `package.json` dependency
+specifications. In this case, the root cause cannot be narrowed down to that,
+and thus seems to be in Spectrum package dependency specifications.
+
 ## Notes
 
 - The issue will not reproduce if you upgrade `@adobe/react-spectrum` to `3.42.0`
