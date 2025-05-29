@@ -55,7 +55,7 @@ and thus seems to be in Spectrum package dependency specifications.
 ## Notes
 
 - The issue will not reproduce if you upgrade `@adobe/react-spectrum` to `3.42.0`
-  and `@react-spectrum/provider` to `3.10.5`. This make it apparent that it’s a bug
+  and `@react-spectrum/provider` to `3.10.5`. This makes it apparent that it’s a bug
   affecting particular Spectrum versions, and probably caused by Spectrum packages’
   dependency specifications.
 
