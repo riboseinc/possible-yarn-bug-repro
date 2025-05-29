@@ -19,26 +19,6 @@ even as you’re referencing the same import.
 You should be able to derive the identical `.pnp.cjs` from scratch
 by running `yarn` in `package-root`.
 
-In `package-root`, if you add the following, you should no longer
-see the duplicate virtual entries:
-
-
-```json
-  "resolutions": {
-    "@react-spectrum/utils": "file:../react-spectrum-utils-broken"
-  }
-```
-
-Alternatively, set this resolution to see those entries:
-
-```json
-  "resolutions": {
-    "@react-spectrum/utils": "file:../react-spectrum-utils"
-  }
-```
-
-The only difference between the two is the presence of react-dom peer dependency.
-
 ## Runtime bug reproduction
 
 To be more specific, the bug arises in the bundle of the Web app
